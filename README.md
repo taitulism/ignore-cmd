@@ -1,5 +1,5 @@
 **PROJECT STATUS:** Just got started. Nothing to see here.  
-**CURRENT VERSION:** `0.0.1`  
+**CURRENT VERSION:** `0.0.2`  
 **FOLLOWS SEMVER:** Not yet.  
 **DEFAULT BRANCH:** `develop`  
 
