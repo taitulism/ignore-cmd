@@ -8,7 +8,7 @@
 
 ignore-cmd
 ==========
-add paths to .gitignore .npmignore from cmd
+Add paths to .gitignore .npmignore from cmd
 
 ```sh
 Usage:    ignore <flag> <entry> [...entries] 
