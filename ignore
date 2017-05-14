@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+# ignore-cmd
+# ==========
+# Add paths to .gitignore & .npmignore from cmd
+#
+#!/usr/bin/env bash
+
+function ignore () {
+	local flag="$1"
+	shift
+
+	while (( "$#" )) ; do
+		if [ "$flag" = '-g' ] ; then
+			echo "$1" >> "$PWD/.gitignore"
+		elif [ "$flag" = '-n' ] ; then
+			echo "$1" >> "$PWD/.npmignore"
+		else
+			echo "$1" >> "$PWD/.gitignore"
+			echo "$1" >> "$PWD/.npmignore"
+		fi
+
+		shift
+	done 
+}
+
+function help () {
+	echo 'Usage:    ignore <flag> <entry> [...entries] '
+	echo
+	echo '    flag      -g  .gitignore'
+	echo '              -n  .npmignore'
+	echo '              -b  both'
+	echo
+	echo '    entry      The path you want to ignore (e.g. /node_modules/)'
+	echo
+	echo '    entries    Ignore multiple entries'
+	echo
+}
+
+function die () {
+	echo "$*"
+	kill -INT $$
+}
+
+
+
+if [ "$#" -lt 2 ] ; then
+	help && die
+fi
+
+
+case "$1" in
+        -g|-n|-b)
+			flag="$1"
+			shift
+			entries="$@"
+			;;
+        *)
+			help && die
+			;;
+esac
+
+ignore $flag $entries
+
+# unset variables
+unset flag
+unset entries
