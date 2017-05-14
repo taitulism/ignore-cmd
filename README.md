@@ -1,4 +1,4 @@
-**PROJECT STATUS:** Just got started. Nothing to see here.  
+**PROJECT STATUS:** Works. Linux only. API Could change.  
 **CURRENT VERSION:** `0.0.2`  
 **FOLLOWS SEMVER:** Not yet.  
 **DEFAULT BRANCH:** `develop`  
@@ -14,6 +14,11 @@ Creates the ignore file if not exists (e.g. creates `.gitignore`).
 Currently only adds items.
 
 
+Install
+-------
+```sh
+$ npm install -g ignore-cmd
+```
 
 
 Usage
