@@ -1,0 +1,17 @@
+{
+  "name": "ignore-cmd",
+  "description": "add paths to .gitignore .npmignore from cmd",
+  "version": "0.0.0",
+  "private": true,
+  "author": "taitulism@gmail.com",
+  "license": "MIT",
+  "main": "src/index.sh",
+  "homepage": "https://github.com/taitulism/ignore-cmd",
+  "bugs": "https://github.com/taitulism/ignore-cmd/issues",
+  "keywords": [],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taitulism/ignore-cmd"
+  }
+}
