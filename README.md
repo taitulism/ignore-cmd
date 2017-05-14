@@ -9,16 +9,15 @@
 
 ignore-cmd
 ==========
-Add paths to .gitignore .npmignore from cmd.
-Creates the ignore file if not exists (e.g. creates `.gitignore`).
-
+Add paths to .gitignore .npmignore from cmd.  
+Creates the ignore file if not exists (e.g. creates `.gitignore`).  
 Currently only adds items.
 
 
 
 
-MAN
----
+Usage
+-----
 ```sh
 Usage:    ignore <flag> <path> [...paths]
 
