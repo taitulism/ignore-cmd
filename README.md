@@ -9,7 +9,9 @@
 
 ignore-cmd
 ==========
-Add paths to .gitignore .npmignore from cmd.  
+## SHELL SCRIPT
+
+Add paths to .gitignore .npmignore from CLI.  
 Creates the ignore file if not exists (e.g. creates `.gitignore`).  
 Currently only adds items.
 
