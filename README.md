@@ -1,5 +1,5 @@
 **PROJECT STATUS:** Works. Linux only. API Could change.  
-**CURRENT VERSION:** `0.0.2`  
+**CURRENT VERSION:** `0.0.3`  
 **FOLLOWS SEMVER:** Not yet.  
 **DEFAULT BRANCH:** `develop`  
 
@@ -40,12 +40,14 @@ Usage:    ignore <flag> <path> [...paths]
 
 Examples
 --------
+Ignore node_modules/ in (g)it:
 ```sh
-# Ignore node_modules/ in (g)it
 $ ignore -g node_modules/
 ```
 
+<br />
+
+Ignore multiple paths in (b)oth gitignore and npmignore:
 ```sh
-# Ignore multiple paths in (b)oth gitignore and npmignore
 $ ignore -b drafts/ playground/ todo.txt
 ```

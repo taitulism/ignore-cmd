@@ -1,9 +1,8 @@
 {
   "name": "ignore-cmd",
-  "description": "add paths to .gitignore .npmignore from cmd",
-  "version": "0.0.0",
+  "description": "SHELL SCRIPT. Add paths to .gitignore .npmignore from CLI",
+  "version": "0.0.3",
   "preferGlobal": true,
-  "private": true,
   "author": "taitulism@gmail.com",
   "license": "MIT",
   "main": "ignore-cmd",
