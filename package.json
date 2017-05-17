@@ -1,7 +1,7 @@
 {
   "name": "ignore-cmd",
   "description": "SHELL SCRIPT. Add paths to .gitignore .npmignore from CLI",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "preferGlobal": true,
   "author": "taitulism@gmail.com",
   "license": "MIT",

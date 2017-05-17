@@ -1,7 +1,7 @@
 **PROJECT STATUS:** Works. Linux only. API Could change.  
-**CURRENT VERSION:** `0.0.3`  
+**CURRENT VERSION:** 0.0.4  
 **FOLLOWS SEMVER:** Not yet.  
-**DEFAULT BRANCH:** `develop`  
+**DEFAULT BRANCH:** develop  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -9,7 +9,9 @@
 
 ignore-cmd
 ==========
-Add paths to .gitignore .npmignore from cmd.  
+## SHELL SCRIPT
+
+Add paths to .gitignore .npmignore from CLI.  
 Creates the ignore file if not exists (e.g. creates `.gitignore`).  
 Currently only adds items.
 
